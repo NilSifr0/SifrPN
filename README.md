@@ -15,7 +15,7 @@ SifrPN is a desktop application for encrypting and decrypting text using pixel n
 
 ### Pre-built Installation
 
-1. Download the latest release of SifrPN from the [Releases](https://github.com/NilSifr0/sifrpn/releases/) page.
+1. Download the latest release of SifrPN from the [Releases](https://github.com/NilSifr0/SifrPN/releases/tag/v1) page.
 2. Run the installer and follow the on-screen instructions to complete the installation.
 
 ### Building from Source
