@@ -1,0 +1,8 @@
+cffi==2.0.0
+cryptography==45.0.7
+numpy==2.3.3
+pillow==10.4.0
+pycparser==2.23
+PyYAML==6.0.2
+tkinter-tooltip==3.1.2
+ttkbootstrap==1.14.2

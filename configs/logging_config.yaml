@@ -1,0 +1,24 @@
+version: 1
+
+loggers:
+  root:
+    level: DEBUG
+    handlers: [ fileHandler ]
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: lowFormatter
+  fileHandler:
+    class: logging.FileHandler
+    formatter: medFormatter
+    filename: app.log
+formatters:
+  lowFormatter:
+    format: '%(levelname)s - %(asctime)s - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+  medFormatter:
+    format: '%(levelname)s - %(asctime)s - %(name)s - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+  topFormatter:
+    format: '%(levelname)s  - %(asctime)s - %(module)s - %(process)d - %(thread)d - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
